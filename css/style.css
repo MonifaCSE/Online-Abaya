@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     position:relative;
-    top:0;
+    top:0px;
 }
 
 /*Navigation Bar: Logo and image */
@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: column;
     color: azure; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bree Serif', serif;
     height: 519px;
     align-items: center;
     justify-content: center;
@@ -92,12 +92,9 @@
     color: white;
     text-align: center;
     margin-top: 280px;
-    font-family:'Lobster', cursive;
+     
 }
-#home p{
-    font-family: 'Sansita Swashed', cursive;
-    padding: 7px;
-}
+ 
 
 /* services section */
 
@@ -112,23 +109,45 @@
     border-radius: 10px;
 }
 #services .box img{
-     height: 300px;
-     width: 300px;
+     height: 200px;
+     width: 200px;
      display: block;;
      margin: auto;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* clients section */
+
+#client-section{
+    display: flex;
+}
+#client{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 200px;
+    width: 200px;
 }
 
 /* Utility Classes */
 
 .h-primary{
-    font-size: 2.8rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
     padding: 14px;
     color: black;
 }
 .h-secondary{
-    font-size: 1.8rem;
+    font-family: 'Bree Serif', serif;  font-size: 1.2rem;
     padding: 14px;
 }
+
 
 
 .btn{
