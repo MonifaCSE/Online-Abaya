@@ -1,8 +1,47 @@
-body{
-    background-color: red;
+/* Navigation */
+#navbar{
+    flex-direction: column;
 }
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#navbar::before{
+     height: 85px;
+}
+
+/* Home Section */
 #home{
-
+     
 }
 
-#
+/* Services section */
+#services{
+    flex-direction: column;
+}
+
+/* Client Section */
+#client-section{
+    height:190px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+#client-section img{
+     width:55px;
+     height:auto;
+}
+
+/* Contact Us Section */
+
+ 
+#contact-box form{
+    width: 80%;
+    padding: 7px;
+    font-size: 15px;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 25px;
+}
+
